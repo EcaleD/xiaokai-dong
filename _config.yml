@@ -1,0 +1,37 @@
+title: "Daniel Dong"
+description: "Personal website & tech blog"
+url: "https://YOUR_USERNAME.github.io"
+baseurl: ""
+timezone: Asia/Tokyo
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+search: true
+lunr:
+  search_within_pages: true
+
+author:
+  name: "Daniel Dong"
+  avatar: "/assets/images/avatar.png"
+  bio: "Docs engineering • Databases • CI/CD • Notes & tutorials."
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/UPDATE_ME"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/YOUR_USERNAME"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
