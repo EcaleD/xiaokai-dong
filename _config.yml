@@ -1,7 +1,7 @@
 title: "Daniel Dong"
 description: "Personal website & tech blog"
-url: "https://ecaled.github.io/xiaokai-dong/"
-baseurl: ""
+url: "https://ecaled.github.io"
+baseurl: "/xiaokai-dong"
 timezone: Asia/Tokyo
 
 remote_theme: "mmistakes/minimal-mistakes"
