@@ -35,3 +35,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
